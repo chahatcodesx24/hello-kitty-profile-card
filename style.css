@@ -5,5 +5,46 @@
 }
 
 body {
-    background-color: pink;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    width: 40%;
+    border: solid 15px #EE6983;
+    border-radius: 30px;
+    background-color: #FFCDC9;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+img {
+    height: 90px;
+    width: 90px;
+}
+
+.hello-kitty {
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    border: solid 7px #EE6983;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 7px auto 0 auto;
+}
+
+.cloud {
+    color: #733349;
+    text-align: center;
+    height: 150px;
+    width: 200px;
+    border: solid 5px #EE6983;
+    border-radius: 60%;
+}
+
+.about {
+    font-family: "Fuzzy Bubbles", sans-serif;
 }
