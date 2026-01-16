@@ -36,15 +36,19 @@ img {
     margin: 7px auto 0 auto;
 }
 
-.cloud {
+.circle {
     color: #733349;
     text-align: center;
     height: 150px;
     width: 200px;
-    border: solid 5px #EE6983;
-    border-radius: 60%;
+    border: solid 6px #EE6983;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 18px;
 }
 
 .about {
     font-family: "Fuzzy Bubbles", sans-serif;
+    padding-top: 10px;
+    padding-bottom: 8px;
 }
