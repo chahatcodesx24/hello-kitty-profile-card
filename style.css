@@ -39,8 +39,8 @@ img {
 .circle {
     color: #733349;
     text-align: center;
-    height: 150px;
-    width: 200px;
+    height: 160px;
+    width: 210px;
     border: solid 6px #EE6983;
     border-radius: 50%;
     position: relative;
@@ -51,4 +51,42 @@ img {
     font-family: "Fuzzy Bubbles", sans-serif;
     padding-top: 10px;
     padding-bottom: 8px;
+}
+
+.bow {
+    position: absolute;
+    left: 165px;
+}
+
+.intro {
+    padding-right: 5px;
+}
+
+.rec {
+    height: 150px;
+    width: 220px;
+    border: solid 6px #EE6983;
+    border-radius: 25%;
+    position: relative;
+    margin-left: 230px;
+    color: #733349;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 30px;  
+}
+
+.fave-things {
+  font-family: "Fuzzy Bubbles", sans-serif;
+  padding-top: 13px;
+  padding-left: 10px;
+}
+
+.balloons {
+    position: absolute;
+    left: 100px;
+    bottom: 100px;
+    width: 400px;
+    height: 200px;
 }
